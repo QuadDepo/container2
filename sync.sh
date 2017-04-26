@@ -1,0 +1,2 @@
+rsync -r --delete -a -v -e "ssh -i ~/.ssh/dg -l root" /Users/George/container2 37.139.30.61:/var/www/html/
+terminal-notifier -message "Uploaded to 23100.tk" -title "Container2" -sender com.apple.automator.ma
